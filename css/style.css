@@ -1,0 +1,262 @@
+html {
+    height: 100%;
+}
+body {
+	background-color:#121212; 
+	background-image:url('../images/back.png');
+	color:#121212; 
+	font:0.9em Verdana, Sans-Serif;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+header, section, footer, nav, aside, main, article, figure {
+    display: block; 
+}
+#wrap{
+	max-width: 1050px;
+	min-width:960px;
+	margin: auto;
+}
+#wrapper{
+	max-width: 1050px;
+	min-width:960px;
+	margin: auto;
+	height: 50px;
+}
+h1{
+	color:#121212;
+	font:1.4em Verdana, Sans-Serif;
+	font-weight:bold;
+	padding-top:15px;
+}
+h2{
+	color:#121212;
+	font:1.2em Verdana, Sans-Serif;
+	font-weight:bold;
+	padding-top:15px;
+}
+strong, b {
+	color:#121212;
+}
+td {
+	vertical-align: top;
+	padding-bottom: 10px;
+}
+a:link, a:active, a:visited {
+	color:#0f61a0; 
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover {
+	color:#2f343f; 
+	text-decoration:underline;
+	font-weight:bold;
+}
+p.center {
+	text-align:center;
+}
+p.title {
+	font:1.2em Verdana, Sans-Serif;
+	color:#121212;
+	text-align:right;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-right:15px;
+	padding-top:7px;
+	padding-bottom:7px;	
+	margin:0 0 0 15px;
+	float:left; 
+}
+div.hop {
+	margin: 0 15px 0;
+	padding-top:7px;
+	padding-bottom:7px;
+	text-align:center;
+	text-transform:uppercase;
+	float:right;
+}
+a:link.hop,a:visited.hop,a:hover.hop,a:active.hop {
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#121212;
+	padding-left:30px;
+	text-decoration:none;
+}
+#site {
+	margin:0 auto;
+	margin-top:270px;
+	border:15px solid #2f343f;
+	margin-bottom:20px;
+	background-color:#c8c8c8;
+	z-index:1;
+}
+header {
+	margin:0;
+	height:450px;
+	position:absolute;
+	top:0; left: 0;
+	z-index:-1;
+	width:100%;
+}
+.content {
+	padding:20px;
+}
+footer {
+	margin:0;
+	padding:20px 0 15px 0;
+	background-color:#2f343f;
+}
+nav {
+	padding: 5px 0 10px 0;
+}
+.sign {
+	background-image: url("../images/purr.png");
+	background-repeat: no-repeat;
+	width: 512px;
+	height: 218px;
+	float:right;
+	margin-top: 60px;
+}
+.personal {
+	color:#c8c8c8;
+	text-align:center;
+}
+.personal p {
+	margin: 0 0 5px 0;
+	font-weight:bold;
+	font-style: italic;
+}
+.personal a:link, .personal a:active, .personal a:hover, .personal a:visited {
+	color:#c8c8c8;
+	text-decoration:none;
+} 
+@-webkit-keyframes headerFadeInOut {
+	0% {
+		opacity:1;
+	}
+	20% {
+		opacity:1;
+	}
+	33% {
+		opacity:0;
+	}
+	87% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+@-moz-keyframes headerFadeInOut {
+	0% {
+		opacity:1;
+	}
+	20% {
+		opacity:1;
+	}
+	33% {
+		opacity:0;
+	}
+	87% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+@-o-keyframes headerFadeInOut {
+	0% {
+		opacity:1;
+	}
+	20% {
+		opacity:1;
+	}
+	33% {
+		opacity:0;
+	}
+	87% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+@keyframes headerFadeInOut {
+	0% {
+		opacity:1;
+	}
+	20% {
+		opacity:1;
+	}
+	33% {
+		opacity:0;
+	}
+	87% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+.background {
+	background-size: cover;
+}
+
+#headerImg {
+	position:relative;
+	height:450px;
+	width: 100%;
+	margin:0 auto;
+}
+#headerImg div.background {
+	position:absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+}
+
+#headerImg div.background {
+	-webkit-animation-name: headerFadeInOut;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 39s;
+
+	-moz-animation-name: headerFadeInOut;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-duration: 39s;
+
+	-o-animation-name: headerFadeInOut;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-iteration-count: infinite;
+	-o-animation-duration: 39s;
+
+	animation-name: headerFadeInOut;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 39s;
+}
+
+#headerImg div.background:nth-of-type(1) {
+	-webkit-animation-delay: 26s;
+	-moz-animation-delay: 26s;
+	-o-animation-delay: 26s;
+	animation-delay: 26s;
+}
+#headerImg div.background:nth-of-type(2) {
+	-webkit-animation-delay: 13s;
+	-moz-animation-delay: 13s;
+	-o-animation-delay: 13s;
+	animation-delay: 13s;
+}
+#headerImg div.background:nth-of-type(3) {
+	-webkit-animation-delay: 0s;
+	-moz-animation-delay: 0s;
+	-o-animation-delay: 0s;
+	animation-delay: 0s;
+}
