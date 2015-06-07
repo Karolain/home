@@ -208,12 +208,12 @@ a:link.contact,a:visited.contact,a:hover.contact,a:active.contact {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(rgba(253,243,237,0.1),rgba(27,27,27,1));
+    background-image: linear-gradient(rgba(27,27,27,0.3),rgba(27,27,27,1));
 }
 
 #background {
     position:relative;
-    height:450px;
+    height:500px;
     width: 100%;
     margin:0 auto;
 }
